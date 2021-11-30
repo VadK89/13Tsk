@@ -100,7 +100,7 @@ namespace _13Tsk
         //Задаем дополнительное свойство этажности
         public int Floor { get; set; }
 
-        //Задаем дополнительный конструктор на 5 параметров
+        //Задаем конструктор на 5 параметров
         public MultiBuilding(string address1, double length1, double width1, double height1, int floor1)
         {
             Address = address1;
