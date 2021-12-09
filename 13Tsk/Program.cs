@@ -102,6 +102,7 @@ namespace _13Tsk
 
         //Задаем конструктор на 5 параметров
         public MultiBuilding(string address1, double length1, double width1, double height1, int floor1)
+            :base(address1, length1, width1, height1)
         {
             Address = address1;
             Length = length1;
